@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT, wengsj" />
+  <meta name="keywords" content="tensorflow,ai," />
 
 
 
@@ -90,15 +90,17 @@
 
 
 
-<meta name="description" content="love &amp; peace.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="wengsj&#39;s blog">
-<meta property="og:url" content="http://wengsj.com/index.html">
+<meta name="description" content="在Ubuntu安装Docker 在Docker安装TensorFlow    一、在Ubuntu安装Docker（可选）卸载旧版本docker：sudo apt-get remove docker docker-engine 1. 下载Docker的.deb包去这里 https://download.docker.com/linux/ubuntu/dists/， 选择你的Ubuntu版本，（">
+<meta name="keywords" content="tensorflow,ai">
+<meta property="og:type" content="article">
+<meta property="og:title" content="从零教你用TensorFlow训练自己的图像分类器（一）">
+<meta property="og:url" content="http://wengsj.com/2017/05/14/从零教你用TensorFlow训练自己的图像分类器（一）/index.html">
 <meta property="og:site_name" content="wengsj&#39;s blog">
-<meta property="og:description" content="love &amp; peace.">
+<meta property="og:description" content="在Ubuntu安装Docker 在Docker安装TensorFlow    一、在Ubuntu安装Docker（可选）卸载旧版本docker：sudo apt-get remove docker docker-engine 1. 下载Docker的.deb包去这里 https://download.docker.com/linux/ubuntu/dists/， 选择你的Ubuntu版本，（">
+<meta property="og:updated_time" content="2017-05-29T12:32:23.506Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="wengsj&#39;s blog">
-<meta name="twitter:description" content="love &amp; peace.">
+<meta name="twitter:title" content="从零教你用TensorFlow训练自己的图像分类器（一）">
+<meta name="twitter:description" content="在Ubuntu安装Docker 在Docker安装TensorFlow    一、在Ubuntu安装Docker（可选）卸载旧版本docker：sudo apt-get remove docker docker-engine 1. 下载Docker的.deb包去这里 https://download.docker.com/linux/ubuntu/dists/， 选择你的Ubuntu版本，（">
 
 
 
@@ -126,13 +128,13 @@
 
 
 
-  <link rel="canonical" href="http://wengsj.com/"/>
+  <link rel="canonical" href="http://wengsj.com/2017/05/14/从零教你用TensorFlow训练自己的图像分类器（一）/"/>
 
 
 
 
 
-  <title>wengsj's blog</title>
+  <title>从零教你用TensorFlow训练自己的图像分类器（一） | wengsj's blog</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -158,9 +160,7 @@
     
   
 
-  <div class="container sidebar-position-right 
-   page-home 
- ">
+  <div class="container sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -263,411 +263,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://wengsj.com/2017/05/29/html常用标签/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="wengsj">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="wengsj's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/05/29/html常用标签/" itemprop="url">html常用标签</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-29T18:48:22+08:00">
-                2017-05-29
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/other/" itemprop="url" rel="index">
-                    <span itemprop="name">other</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/05/29/html常用标签/" class="leancloud_visitors" data-flag-title="html常用标签">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="实体标签："><a href="#实体标签：" class="headerlink" title="实体标签："></a>实体标签：</h3><table>
-<thead>
-<tr>
-<th>显示结果</th>
-<th>描述</th>
-<th>实体名称</th>
-<th>实体编号</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td>空格</td>
-<td><code>&amp;nbsp;</code></td>
-<td><code>&amp;#160;</code></td>
-</tr>
-<tr>
-<td>&lt;</td>
-<td>小于号</td>
-<td><code>&amp;lt;</code></td>
-<td><code>&amp;#60;</code></td>
-</tr>
-<tr>
-<td>&gt;</td>
-<td>大于号</td>
-<td><code>&amp;gt;</code></td>
-<td><code>&amp;#62;</code></td>
-</tr>
-<tr>
-<td>&amp;</td>
-<td>和号</td>
-<td><code>&amp;amp;</code></td>
-<td><code>&amp;#38;</code></td>
-</tr>
-<tr>
-<td>“</td>
-<td>引号</td>
-<td><code>&amp;quot;</code></td>
-<td><code>&amp;#34;</code></td>
-</tr>
-<tr>
-<td>‘</td>
-<td>撇号</td>
-<td><code>&amp;apos;</code> (IE不支持)</td>
-<td><code>&amp;#39;</code></td>
-</tr>
-<tr>
-<td>￠</td>
-<td>分</td>
-<td><code>&amp;cent;</code></td>
-<td><code>&amp;#162;</code></td>
-</tr>
-<tr>
-<td>£</td>
-<td>镑</td>
-<td><code>&amp;pound;</code></td>
-<td><code>&amp;#163;</code></td>
-</tr>
-<tr>
-<td>¥</td>
-<td>日圆</td>
-<td><code>&amp;yen;</code></td>
-<td><code>&amp;#165;</code></td>
-</tr>
-<tr>
-<td>€</td>
-<td>欧元</td>
-<td><code>&amp;euro;</code></td>
-<td><code>&amp;#8364;</code></td>
-</tr>
-<tr>
-<td>§</td>
-<td>小节</td>
-<td><code>&amp;sect;</code></td>
-<td><code>&amp;#167;</code></td>
-</tr>
-<tr>
-<td>©</td>
-<td>版权</td>
-<td><code>&amp;copy;</code></td>
-<td><code>&amp;#169;</code></td>
-</tr>
-<tr>
-<td>®</td>
-<td>注册商标</td>
-<td><code>&amp;reg;</code></td>
-<td><code>&amp;#174;</code></td>
-</tr>
-<tr>
-<td>™</td>
-<td>商标</td>
-<td><code>&amp;trade;</code></td>
-<td><code>&amp;#8482;</code></td>
-</tr>
-<tr>
-<td>×</td>
-<td>乘号</td>
-<td><code>&amp;times;</code></td>
-<td><code>&amp;#215;</code></td>
-</tr>
-<tr>
-<td>÷</td>
-<td>除号</td>
-<td><code>&amp;divide;</code></td>
-<td><code>&amp;#247;</code></td>
-</tr>
-</tbody>
-</table>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://wengsj.com/2017/05/29/ubuntu安装nodejs/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="wengsj">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="wengsj's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/05/29/ubuntu安装nodejs/" itemprop="url">ubuntu安装nodejs</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-29T18:36:01+08:00">
-                2017-05-29
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/linux/" itemprop="url" rel="index">
-                    <span itemprop="name">linux</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/05/29/ubuntu安装nodejs/" class="leancloud_visitors" data-flag-title="ubuntu安装nodejs">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h3 id="1-官网下载tar-gz源代码文件，例如：node-v4-2-1-tar-gz"><a href="#1-官网下载tar-gz源代码文件，例如：node-v4-2-1-tar-gz" class="headerlink" title="1. 官网下载tar.gz源代码文件，例如：node-v4.2.1.tar.gz"></a>1. 官网下载tar.gz源代码文件，例如：node-v4.2.1.tar.gz</h3><h3 id="2-使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）"><a href="#2-使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）" class="headerlink" title="2. 使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）"></a>2. 使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）</h3><h3 id="3-解压源码"><a href="#3-解压源码" class="headerlink" title="3. 解压源码"></a>3. 解压源码</h3><p><code>$ tar zxvf node-v4.2.1.tar.gz</code></p>
-<h3 id="4-编译前首先确保系统安装来Python-gcc-g-如果没有则安装"><a href="#4-编译前首先确保系统安装来Python-gcc-g-如果没有则安装" class="headerlink" title="4. 编译前首先确保系统安装来Python,gcc,g++,如果没有则安装"></a>4. 编译前首先确保系统安装来Python,gcc,g++,如果没有则安装</h3>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/05/29/ubuntu安装nodejs/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
 
   
 
@@ -693,9 +291,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/05/14/从零教你用TensorFlow训练自己的图像分类器（一）/" itemprop="url">从零教你用TensorFlow训练自己的图像分类器（一）</a></h1>
+          <h1 class="post-title" itemprop="name headline">从零教你用TensorFlow训练自己的图像分类器（一）</h1>
         
 
         <div class="post-meta">
@@ -775,8 +371,7 @@
       
 
       
-        
-          <hr>
+        <hr>
 <blockquote>
 <ul>
 <li>在Ubuntu安装Docker</li>
@@ -786,49 +381,82 @@
 <hr>
 <h2 id="一、在Ubuntu安装Docker"><a href="#一、在Ubuntu安装Docker" class="headerlink" title="一、在Ubuntu安装Docker"></a>一、在Ubuntu安装Docker</h2><p>（可选）卸载旧版本docker：<br><code>sudo apt-get remove docker docker-engine</code></p>
 <h3 id="1-下载Docker的-deb包"><a href="#1-下载Docker的-deb包" class="headerlink" title="1. 下载Docker的.deb包"></a>1. 下载Docker的.deb包</h3><p>去这里 <a href="https://download.docker.com/linux/ubuntu/dists/" target="_blank" rel="external">https://download.docker.com/linux/ubuntu/dists/</a>， 选择你的Ubuntu版本，（例如16.04的是Xenial，14.04的是trusty）， 选择路径到 pool/stable/，选择 amd64 或者 armhf版本，然后下载对应的.deb文件。</p>
-<h3 id="2-安装Docker"><a href="#2-安装Docker" class="headerlink" title="2. 安装Docker"></a>2. 安装Docker</h3><p>使用以下命令安装下载好的.deb包，注意更改你的.deb包所在路径<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/05/14/从零教你用TensorFlow训练自己的图像分类器（一）/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
+<h3 id="2-安装Docker"><a href="#2-安装Docker" class="headerlink" title="2. 安装Docker"></a>2. 安装Docker</h3><p>使用以下命令安装下载好的.deb包，注意更改你的.deb包所在路径<br><a id="more"></a><br><code>sudo dpkg -i /path/to/package.deb</code></p>
+<h3 id="3-运行hello-world镜像来验证Docker是否已经正确安装"><a href="#3-运行hello-world镜像来验证Docker是否已经正确安装" class="headerlink" title="3. 运行hello-world镜像来验证Docker是否已经正确安装"></a>3. 运行hello-world镜像来验证Docker是否已经正确安装</h3><p>这个命令会下载一个测试镜像并运行在一个容器中。<br><code>sudo docker run hello-world</code></p>
+<p>之后如果看到以下信息，表示docker安装成功。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Hello from Docker!</div><div class="line">This message shows that your installation appears to be working correctly.</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="二、在Docker安装TensorFlow"><a href="#二、在Docker安装TensorFlow" class="headerlink" title="二、在Docker安装TensorFlow"></a>二、在Docker安装TensorFlow</h2><h3 id="1-下载tensorflow的镜像到Docker"><a href="#1-下载tensorflow的镜像到Docker" class="headerlink" title="1. 下载tensorflow的镜像到Docker"></a>1. 下载tensorflow的镜像到Docker</h3><p>使用以下命令<br><code>sudo docker run -it gcr.io/tensorflow/tensorflow:latest-devel</code><br>但是发现上面的命令会有以下错误<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Unable to find image &apos;gcr.io/tensorflow/tensorflow:latest-devel&apos; locally</div><div class="line">docker: Error response from daemon: Get https://gcr.io/v1/_ping: dial tcp xxx.xxx.xxx:xxx: getsockopt: connection refused.</div><div class="line">See &apos;docker run --help&apos;.</div></pre></td></tr></table></figure></p>
+<p>google了一下问题后，由于GFW，不能使用Docker的hub，所以用Tensorflow的官方镜像下载，改用以下命令（此处能FQ的也别开，开了会报错。）<br><code>sudo docker run -it -p 8888:8888 tensorflow/tensorflow</code><br>之后等待下载完成，需要挺久的，看网速吧。</p>
+<h3 id="未完待续…"><a href="#未完待续…" class="headerlink" title="未完待续…"></a>未完待续…</h3>
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
     <footer class="post-footer">
       
-
+        <div class="post-tags">
+          
+            <a href="/tags/tensorflow/" rel="tag"># tensorflow</a>
+          
+            <a href="/tags/ai/" rel="tag"># ai</a>
+          
+        </div>
       
 
       
+        
+      
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/05/29/ubuntu安装nodejs/" rel="prev" title="ubuntu安装nodejs">
+                ubuntu安装nodejs <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
-        <div class="post-eof"></div>
+
+      
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -836,6 +464,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -855,8 +487,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
@@ -943,6 +584,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、在Ubuntu安装Docker"><span class="nav-number">1.</span> <span class="nav-text">一、在Ubuntu安装Docker</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-下载Docker的-deb包"><span class="nav-number">1.1.</span> <span class="nav-text">1. 下载Docker的.deb包</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-安装Docker"><span class="nav-number">1.2.</span> <span class="nav-text">2. 安装Docker</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-运行hello-world镜像来验证Docker是否已经正确安装"><span class="nav-number">1.3.</span> <span class="nav-text">3. 运行hello-world镜像来验证Docker是否已经正确安装</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、在Docker安装TensorFlow"><span class="nav-number">2.</span> <span class="nav-text">二、在Docker安装TensorFlow</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-下载tensorflow的镜像到Docker"><span class="nav-number">2.1.</span> <span class="nav-text">1. 下载tensorflow的镜像到Docker</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#未完待续…"><span class="nav-number">2.2.</span> <span class="nav-text">未完待续…</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1068,6 +725,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
 
   
 
