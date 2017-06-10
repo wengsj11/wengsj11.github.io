@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[html常用标签]]></title>
+    <url>%2F2017%2F05%2F29%2Fhtml%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE%2F</url>
+    <content type="text"><![CDATA[实体标签： 显示结果 描述 实体名称 实体编号 空格 &amp;nbsp; &amp;#160; &lt; 小于号 &amp;lt; &amp;#60; &gt; 大于号 &amp;gt; &amp;#62; &amp; 和号 &amp;amp; &amp;#38; “ 引号 &amp;quot; &amp;#34; ‘ 撇号 &amp;apos; (IE不支持) &amp;#39; ￠ 分 &amp;cent; &amp;#162; £ 镑 &amp;pound; &amp;#163; ¥ 日圆 &amp;yen; &amp;#165; € 欧元 &amp;euro; &amp;#8364; § 小节 &amp;sect; &amp;#167; © 版权 &amp;copy; &amp;#169; ® 注册商标 &amp;reg; &amp;#174; ™ 商标 &amp;trade; &amp;#8482; × 乘号 &amp;times; &amp;#215; ÷ 除号 &amp;divide; &amp;#247;]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+      <tags>
+        <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[ubuntu安装nodejs]]></title>
+    <url>%2F2017%2F05%2F29%2Fubuntu%E5%AE%89%E8%A3%85nodejs%2F</url>
+    <content type="text"><![CDATA[1. 官网下载tar.gz源代码文件，例如：node-v4.2.1.tar.gz2. 使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）3. 解压源码$ tar zxvf node-v4.2.1.tar.gz 4. 编译前首先确保系统安装来Python,gcc,g++,如果没有则安装 $ sudo apt-get install python $ sudo apt-get install build-essential $ sudo apt-get install gcc $ sudo apt-get install g++ 5. 编译安装$ cd node-v4.2.1 $ sudo ./configure --prefix=/usr/local/node/4.2.1 $ sudo make $ sudo make install 6. 配置NODE_HOME，进入profile编辑环境变量$ vim /etc/profile 设置nodejs环境变量，在文件末尾添加如下内容: 1234#set for nodejsexport NODE_HOME=/usr/local/node/4.2.1export PATH=$NODE_HOME/bin:$PATHexport NODE_PATH=$NODE_HOME/lib/node_modules 之后按Esc键，:wq保存并退出。（若文件显示为只读，输入:w !sudo tee %强制保存） 7. 编译/etc/profile 使配置生效$ source /etc/profile 验证是否安装配置成功 $ node -v $ npm -v 输出 v4.2.1 和 2.14.7 表示配置成功。 （npm模块安装路径/usr/local/node/0.10.24/lib/node_modules/） 在命令行输入：$ sudo vim /root/.bashrc 并在文件末尾加入一行source etc/profile命令，保存。这样就大功告成了。（特别要注意配置好/etc/profile后，将配置加入/root/.bashrc中；否则，配置的环境变量不会在root账户下生效） 教程参考：http://www.cnblogs.com/RocketV2/p/5402552.htmlhttp://blog.csdn.net/awj3584/article/details/18401539]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>ubuntu</tag>
+        <tag>nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[从零教你用TensorFlow训练自己的图像分类器（一）]]></title>
+    <url>%2F2017%2F05%2F14%2F%E4%BB%8E%E9%9B%B6%E6%95%99%E4%BD%A0%E7%94%A8TensorFlow%E8%AE%AD%E7%BB%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8%EF%BC%88%E4%B8%80%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[在Ubuntu安装Docker 在Docker安装TensorFlow 一、在Ubuntu安装Docker（可选）卸载旧版本docker：sudo apt-get remove docker docker-engine 1. 下载Docker的.deb包去这里 https://download.docker.com/linux/ubuntu/dists/， 选择你的Ubuntu版本，（例如16.04的是Xenial，14.04的是trusty）， 选择路径到 pool/stable/，选择 amd64 或者 armhf版本，然后下载对应的.deb文件。 2. 安装Docker使用以下命令安装下载好的.deb包，注意更改你的.deb包所在路径sudo dpkg -i /path/to/package.deb 3. 运行hello-world镜像来验证Docker是否已经正确安装这个命令会下载一个测试镜像并运行在一个容器中。sudo docker run hello-world 之后如果看到以下信息，表示docker安装成功。 12Hello from Docker!This message shows that your installation appears to be working correctly. 二、在Docker安装TensorFlow1. 下载tensorflow的镜像到Docker使用以下命令sudo docker run -it gcr.io/tensorflow/tensorflow:latest-devel但是发现上面的命令会有以下错误123Unable to find image &apos;gcr.io/tensorflow/tensorflow:latest-devel&apos; locallydocker: Error response from daemon: Get https://gcr.io/v1/_ping: dial tcp xxx.xxx.xxx:xxx: getsockopt: connection refused.See &apos;docker run --help&apos;. google了一下问题后，由于GFW，不能使用Docker的hub，所以用Tensorflow的官方镜像下载，改用以下命令（此处能FQ的也别开，开了会报错。）sudo docker run -it -p 8888:8888 tensorflow/tensorflow之后等待下载完成，需要挺久的，看网速吧。 未完待续…]]></content>
+      <categories>
+        <category>tensorflow</category>
+      </categories>
+      <tags>
+        <tag>tensorflow</tag>
+        <tag>ai</tag>
+      </tags>
+  </entry>
+</search>
