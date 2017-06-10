@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wengsj.com/tags/index.html</loc>
+    
+    <lastmod>2017-06-10T18:17:15.968Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wengsj.com/categories/index.html</loc>
+    
+    <lastmod>2017-06-10T18:17:09.366Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wengsj.com/2017/05/29/Ubuntu%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85node.js/</loc>
     
     <lastmod>2017-06-10T18:14:17.336Z</lastmod>
@@ -19,20 +33,6 @@
     <loc>http://wengsj.com/404.html</loc>
     
     <lastmod>2017-05-29T06:59:13.976Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wengsj.com/tags/index.html</loc>
-    
-    <lastmod>2017-05-29T06:57:51.295Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wengsj.com/categories/index.html</loc>
-    
-    <lastmod>2017-05-29T06:56:43.538Z</lastmod>
     
   </url>
   
