@@ -4,18 +4,18 @@
 
     
   <url>
-    <loc>http://wengsj.com/2017/05/29/ubuntu%E5%AE%89%E8%A3%85nodejs/</loc>
-    <lastmod>2017-05-29T12:32:25.633Z</lastmod>
+    <loc>http://wengsj.com/2017/05/29/Ubuntu%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85node.js/</loc>
+    <lastmod>2017-06-10T18:14:17.336Z</lastmod>
     <data>
         <display>
-        <title>ubuntu安装nodejs</title>
+        <title>Ubuntu源码编译方式安装node.js</title>
         <pubTime>2017-05-29T10:36:01.000Z</pubTime>
         
         <tag>linux</tag>
          
         <tag>ubuntu</tag>
          
-        <tag>nodejs</tag>
+        <tag>node.js</tag>
          
          
            
@@ -43,26 +43,6 @@
            
              
               <breadCrumb title="tensorflow" url="http://wengsj.com/categories/tensorflow/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://wengsj.com/2017/05/29/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2017-05-29T12:30:11.272Z</lastmod>
-    <data>
-        <display>
-        <title>html常用标签</title>
-        <pubTime>2017-05-29T10:48:22.000Z</pubTime>
-        
-        <tag>html</tag>
-         
-         
-           
-             
-              <breadCrumb title="other" url="http://wengsj.com/categories/other/"/>
           
         </display>
     </data>
