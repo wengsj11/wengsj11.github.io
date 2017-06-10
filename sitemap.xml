@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wengsj.com/404.html</loc>
+    
+    <lastmod>2017-06-10T18:20:36.122Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wengsj.com/tags/index.html</loc>
     
     <lastmod>2017-06-10T18:17:15.968Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://wengsj.com/2017/05/14/%E4%BB%8E%E9%9B%B6%E6%95%99%E4%BD%A0%E7%94%A8TensorFlow%E8%AE%AD%E7%BB%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
     
     <lastmod>2017-05-29T12:32:23.506Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wengsj.com/404.html</loc>
-    
-    <lastmod>2017-05-29T06:59:13.976Z</lastmod>
     
   </url>
   
