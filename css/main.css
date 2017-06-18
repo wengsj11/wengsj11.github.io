@@ -997,9 +997,9 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 36px;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: normal;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lobster', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1696,7 +1696,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4958ff;
+  background: #82ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2869,4 +2869,20 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
+}
+.site-author-image {
+  border-radius: 100%;
+  padding: 2px;
+  border: 2px dashed #fff;
+  animation: cycle 2s 0.5s forwards;
+  transition: border-radius 2s;
+}
+@font-face {
+  font-family: 'CoveredByYourGrace';
+  src: url("CoveredByYourGrace.ttf.woff") format('woff'), url("CoveredByYourGrace.ttf.svg#CoveredByYourGrace") format('svg'), url("CoveredByYourGrace.ttf.eot"), url("CoveredByYourGrace.ttf.eot?#iefix") format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.site-title {
+  font-family: 'CoveredByYourGrace';
 }
