@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[给NexT主题添加CoveredByYourGrace字体]]></title>
+    <url>%2F%E7%BB%99NexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0CoveredByYourGrace%E5%AD%97%E4%BD%93.html</url>
+    <content type="text"><![CDATA[注：next主题配置文件其实可以直接设置字体样式，通过外链api字体库来设置，以下只是我设置CoveredByYourGrace字体的方法。 下载CoveredByYourGrace字体文件地址：https://cn.ffonts.net/CoveredByYourGrace.font 压缩包会包含三个字体文件 打开自定义CSS：\themes\next\source\css\_custom\custom.styl加入以下代码123456789@font-face &#123; font-family: &apos;CoveredByYourGrace&apos;; src:url(&apos;CoveredByYourGrace.ttf.woff&apos;) format(&apos;woff&apos;), url(&apos;CoveredByYourGrace.ttf.svg#CoveredByYourGrace&apos;) format(&apos;svg&apos;), url(&apos;CoveredByYourGrace.ttf.eot&apos;), url(&apos;CoveredByYourGrace.ttf.eot?#iefix&apos;) format(&apos;embedded-opentype&apos;); font-weight: normal; font-style: normal;&#125; 假如要使博客的logo字体更改，通过查看元素找到logo的class标签名，修改其font-family属性，如加入以下代码：123.site-title&#123; font-family: &apos;CoveredByYourGrace&apos;;&#125; 若要修改其他部分的字体如文章标题等，方法相同。 最后将刚才压缩包内的三个文件解压到\themes\next\source\css即可]]></content>
+      <tags>
+        <tag>font</tag>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Ubuntu源码编译方式安装node.js]]></title>
     <url>%2FUbuntu%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85node.js.html</url>
     <content type="text"><![CDATA[去官网下载tar.gz源代码文件下载地址：https://nodejs.org/en/download/选择Source Code文件下载，例如：node-v4.2.1.tar.gz 使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）解压源码$ tar zxvf node-v4.2.1.tar.gz 确保编译前系统安装了Python，gcc，g++（若已安装请跳过） $ sudo apt-get install python $ sudo apt-get install build-essential $ sudo apt-get install gcc $ sudo apt-get install g++ 编译安装注意将版本号修改为你所下载的版本$ cd node-v4.2.1 $ sudo ./configure --prefix=/usr/local/node/4.2.1 $ sudo make $ sudo make install 配置NODE_HOME，进入profile编辑环境变量$ vim /etc/profile 设置node.js环境变量，在文件末尾添加如下内容:注意将版本号修改为你所下载的版本1234#set for nodejsexport NODE_HOME=/usr/local/node/4.2.1export PATH=$NODE_HOME/bin:$PATHexport NODE_PATH=$NODE_HOME/lib/node_modules 之后按Esc键，:wq保存并退出。（若文件显示为只读，输入:w !sudo tee %强制保存） 编译/etc/profile 使配置生效$ source /etc/profile 验证是否安装配置成功 $ node -v $ npm -v 输出 v4.2.1 和 2.14.7 表示配置成功。 （npm模块安装路径/usr/local/node/0.10.24/lib/node_modules/） 在命令行输入：$ sudo vim /root/.bashrc 并在文件末尾加入一行source etc/profile命令，保存。这样就大功告成了。（特别要注意配置好/etc/profile后，将配置加入/root/.bashrc中；否则，配置的环境变量不会在root账户下生效） 教程参考：http://www.cnblogs.com/RocketV2/p/5402552.htmlhttp://blog.csdn.net/awj3584/article/details/18401539]]></content>
