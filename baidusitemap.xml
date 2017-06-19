@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://wengsj.com/%E7%BB%99NexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0CoveredByYourGrace%E5%AD%97%E4%BD%93.html</loc>
-    <lastmod>2017-06-18T19:12:40.576Z</lastmod>
+    <lastmod>2017-06-19T09:34:00.122Z</lastmod>
     <data>
         <display>
         <title>给NexT主题添加CoveredByYourGrace字体</title>
@@ -17,6 +17,31 @@
          
          
            
+             
+              <breadCrumb title="小技巧" url="http://wengsj.com/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wengsj.com/%E4%BB%8E%E9%9B%B6%E6%95%99%E4%BD%A0%E7%94%A8TensorFlow%E8%AE%AD%E7%BB%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8%EF%BC%88%E4%B8%80%EF%BC%89.html</loc>
+    <lastmod>2017-06-19T09:33:47.025Z</lastmod>
+    <data>
+        <display>
+        <title>从零教你用TensorFlow训练自己的图像分类器（一）</title>
+        <pubTime>2017-05-14T11:16:00.000Z</pubTime>
+        
+        <tag>tensorflow</tag>
+         
+        <tag>ai</tag>
+         
+         
+           
+             
+              <breadCrumb title="小技巧" url="http://wengsj.com/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+          
         </display>
     </data>
     </url>
@@ -24,7 +49,7 @@
     
   <url>
     <loc>http://wengsj.com/Ubuntu%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85node.js.html</loc>
-    <lastmod>2017-06-10T18:27:15.766Z</lastmod>
+    <lastmod>2017-06-19T09:33:42.023Z</lastmod>
     <data>
         <display>
         <title>Ubuntu源码编译方式安装node.js</title>
@@ -39,7 +64,7 @@
          
            
              
-              <breadCrumb title="linux" url="http://wengsj.com/categories/linux/"/>
+              <breadCrumb title="小技巧" url="http://wengsj.com/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
           
         </display>
     </data>
@@ -48,26 +73,4 @@
     
     
     
-    
-  <url>
-    <loc>http://wengsj.com/%E4%BB%8E%E9%9B%B6%E6%95%99%E4%BD%A0%E7%94%A8TensorFlow%E8%AE%AD%E7%BB%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8%EF%BC%88%E4%B8%80%EF%BC%89.html</loc>
-    <lastmod>2017-05-29T12:32:23.506Z</lastmod>
-    <data>
-        <display>
-        <title>从零教你用TensorFlow训练自己的图像分类器（一）</title>
-        <pubTime>2017-05-14T11:16:00.000Z</pubTime>
-        
-        <tag>tensorflow</tag>
-         
-        <tag>ai</tag>
-         
-         
-           
-             
-              <breadCrumb title="tensorflow" url="http://wengsj.com/categories/tensorflow/"/>
-          
-        </display>
-    </data>
-    </url>
-
 </urlset>
