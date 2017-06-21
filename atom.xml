@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>wengsj&#39;s blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://wengsj.com/"/>
+  <updated>2017-06-19T09:34:00.122Z</updated>
+  <id>http://wengsj.com/</id>
+  
+  <author>
+    <name>wengsj</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给NexT主题添加CoveredByYourGrace字体</title>
+    <link href="http://wengsj.com/%E7%BB%99NexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0CoveredByYourGrace%E5%AD%97%E4%BD%93.html"/>
+    <id>http://wengsj.com/给NexT主题添加CoveredByYourGrace字体.html</id>
+    <published>2017-06-18T19:01:44.000Z</published>
+    <updated>2017-06-19T09:34:00.122Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong><em>注：next主题配置文件其实可以直接设置字体样式，通过外链api字体库来设置，以下只是我设置CoveredByYourGrace字体的方法。</em></strong></p>
+<h2 id="下载CoveredByYourGrace字体文件"><a href="#下载CoveredByYourGrace字体文件" class="headerlink" title="下载CoveredByYourGrace字体文件"></a>下载CoveredByYourGrace字体文件</h2><p>地址：<a href="https://cn.ffonts.net/CoveredByYourGrace.font" target="_blank" rel="external">https://cn.ffonts.net/CoveredByYourGrace.font</a></p>
+<p>  压缩包会包含三个字体文件</p>
+<p>  <img src="https://i4.piimg.com/1949/81572678161faeba.png" alt="jietu.png"></p>
+<h2 id="打开自定义CSS：-themes-next-source-css-custom-custom-styl加入以下代码"><a href="#打开自定义CSS：-themes-next-source-css-custom-custom-styl加入以下代码" class="headerlink" title="打开自定义CSS：\themes\next\source\css\_custom\custom.styl加入以下代码"></a>打开自定义CSS：<code>\themes\next\source\css\_custom\custom.styl</code>加入以下代码</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">@font-face &#123;</div><div class="line">    font-family: &apos;CoveredByYourGrace&apos;;</div><div class="line">    src:url(&apos;CoveredByYourGrace.ttf.woff&apos;) format(&apos;woff&apos;),</div><div class="line">        url(&apos;CoveredByYourGrace.ttf.svg#CoveredByYourGrace&apos;) format(&apos;svg&apos;),</div><div class="line">        url(&apos;CoveredByYourGrace.ttf.eot&apos;),</div><div class="line">        url(&apos;CoveredByYourGrace.ttf.eot?#iefix&apos;) format(&apos;embedded-opentype&apos;); </div><div class="line">    font-weight: normal;</div><div class="line">    font-style: normal;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>假如要使博客的logo字体更改，通过查看元素找到logo的class标签名，修改其font-family属性，如加入以下代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">.site-title&#123;</div><div class="line">	font-family: &apos;CoveredByYourGrace&apos;;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>若要修改其他部分的字体如文章标题等，方法相同。</p>
+<h2 id="最后将刚才压缩包内的三个文件解压到-themes-next-source-css即可"><a href="#最后将刚才压缩包内的三个文件解压到-themes-next-source-css即可" class="headerlink" title="最后将刚才压缩包内的三个文件解压到\themes\next\source\css即可"></a>最后将刚才压缩包内的三个文件解压到<code>\themes\next\source\css</code>即可</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&lt;em&gt;注：next主题配置文件其实可以直接设置字体样式，通过外链api字体库来设置，以下只是我设置CoveredByYourGrace字体的方法。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;下载CoveredByYourGrace字体文件&quot;&gt;&lt;a
+    
+    </summary>
+    
+      <category term="小技巧" scheme="http://wengsj.com/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="font" scheme="http://wengsj.com/tags/font/"/>
+    
+      <category term="next" scheme="http://wengsj.com/tags/next/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu源码编译方式安装node.js</title>
+    <link href="http://wengsj.com/Ubuntu%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85node.js.html"/>
+    <id>http://wengsj.com/Ubuntu源码编译方式安装node.js.html</id>
+    <published>2017-05-29T10:36:01.000Z</published>
+    <updated>2017-06-19T09:33:42.023Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="去官网下载tar-gz源代码文件"><a href="#去官网下载tar-gz源代码文件" class="headerlink" title="去官网下载tar.gz源代码文件"></a>去官网下载tar.gz源代码文件</h3><p>下载地址：<a href="https://nodejs.org/en/download/" target="_blank" rel="external">https://nodejs.org/en/download/</a><br>选择Source Code文件下载，例如：node-v4.2.1.tar.gz</p>
+<h3 id="使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）"><a href="#使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）" class="headerlink" title="使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）"></a>使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）</h3><h3 id="解压源码"><a href="#解压源码" class="headerlink" title="解压源码"></a>解压源码</h3><p><code>$ tar zxvf node-v4.2.1.tar.gz</code></p>
+<h3 id="确保编译前系统安装了Python，gcc，g-（若已安装请跳过）"><a href="#确保编译前系统安装了Python，gcc，g-（若已安装请跳过）" class="headerlink" title="确保编译前系统安装了Python，gcc，g++（若已安装请跳过）"></a>确保编译前系统安装了Python，gcc，g++（若已安装请跳过）</h3><a id="more"></a>
+<p><code>$ sudo apt-get install python</code></p>
+<p><code>$ sudo apt-get install build-essential</code></p>
+<p><code>$ sudo apt-get install gcc</code></p>
+<p><code>$ sudo apt-get install g++</code></p>
+<h3 id="编译安装"><a href="#编译安装" class="headerlink" title="编译安装"></a>编译安装</h3><p><strong>注意将版本号修改为你所下载的版本</strong><br><code>$ cd node-v4.2.1</code></p>
+<p><code>$ sudo ./configure --prefix=/usr/local/node/4.2.1</code></p>
+<p><code>$ sudo make</code></p>
+<p><code>$ sudo make install</code></p>
+<h3 id="配置NODE-HOME，进入profile编辑环境变量"><a href="#配置NODE-HOME，进入profile编辑环境变量" class="headerlink" title="配置NODE_HOME，进入profile编辑环境变量"></a>配置NODE_HOME，进入profile编辑环境变量</h3><p><code>$ vim /etc/profile</code></p>
+<p>设置node.js环境变量，在文件末尾添加如下内容:<br><strong>注意将版本号修改为你所下载的版本</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">#set for nodejs</div><div class="line">export NODE_HOME=/usr/local/node/4.2.1</div><div class="line">export PATH=$NODE_HOME/bin:$PATH</div><div class="line">export NODE_PATH=$NODE_HOME/lib/node_modules</div></pre></td></tr></table></figure></p>
+<p>之后按Esc键，:wq保存并退出。（若文件显示为只读，输入:w !sudo tee %强制保存）</p>
+<h3 id="编译-etc-profile-使配置生效"><a href="#编译-etc-profile-使配置生效" class="headerlink" title="编译/etc/profile 使配置生效"></a>编译/etc/profile 使配置生效</h3><p><code>$ source /etc/profile</code></p>
+<p>验证是否安装配置成功</p>
+<p><code>$ node -v</code></p>
+<p><code>$ npm -v</code></p>
+<p>输出 v4.2.1 和 2.14.7 表示配置成功。</p>
+<p>（npm模块安装路径/usr/local/node/0.10.24/lib/node_modules/）</p>
+<p>在命令行输入：<code>$ sudo vim /root/.bashrc</code> 并在文件末尾加入一行source etc/profile命令，保存。这样就大功告成了。（特别要注意配置好/etc/profile后，将配置加入/root/.bashrc中；否则，配置的环境变量不会在root账户下生效）</p>
+<p><strong>教程参考</strong>：<br><a href="http://www.cnblogs.com/RocketV2/p/5402552.html" target="_blank" rel="external">http://www.cnblogs.com/RocketV2/p/5402552.html</a><br><a href="http://blog.csdn.net/awj3584/article/details/18401539" target="_blank" rel="external">http://blog.csdn.net/awj3584/article/details/18401539</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;去官网下载tar-gz源代码文件&quot;&gt;&lt;a href=&quot;#去官网下载tar-gz源代码文件&quot; class=&quot;headerlink&quot; title=&quot;去官网下载tar.gz源代码文件&quot;&gt;&lt;/a&gt;去官网下载tar.gz源代码文件&lt;/h3&gt;&lt;p&gt;下载地址：&lt;a href=&quot;https://nodejs.org/en/download/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://nodejs.org/en/download/&lt;/a&gt;&lt;br&gt;选择Source Code文件下载，例如：node-v4.2.1.tar.gz&lt;/p&gt;
+&lt;h3 id=&quot;使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）&quot;&gt;&lt;a href=&quot;#使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）&quot; class=&quot;headerlink&quot; title=&quot;使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）&quot;&gt;&lt;/a&gt;使用FileZilla将文件上传至ubuntu服务器（若在ssh连接环境下）&lt;/h3&gt;&lt;h3 id=&quot;解压源码&quot;&gt;&lt;a href=&quot;#解压源码&quot; class=&quot;headerlink&quot; title=&quot;解压源码&quot;&gt;&lt;/a&gt;解压源码&lt;/h3&gt;&lt;p&gt;&lt;code&gt;$ tar zxvf node-v4.2.1.tar.gz&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;确保编译前系统安装了Python，gcc，g-（若已安装请跳过）&quot;&gt;&lt;a href=&quot;#确保编译前系统安装了Python，gcc，g-（若已安装请跳过）&quot; class=&quot;headerlink&quot; title=&quot;确保编译前系统安装了Python，gcc，g++（若已安装请跳过）&quot;&gt;&lt;/a&gt;确保编译前系统安装了Python，gcc，g++（若已安装请跳过）&lt;/h3&gt;
+    
+    </summary>
+    
+      <category term="小技巧" scheme="http://wengsj.com/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="linux" scheme="http://wengsj.com/tags/linux/"/>
+    
+      <category term="ubuntu" scheme="http://wengsj.com/tags/ubuntu/"/>
+    
+      <category term="node.js" scheme="http://wengsj.com/tags/node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从零教你用TensorFlow训练自己的图像分类器（一）</title>
+    <link href="http://wengsj.com/%E4%BB%8E%E9%9B%B6%E6%95%99%E4%BD%A0%E7%94%A8TensorFlow%E8%AE%AD%E7%BB%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8%EF%BC%88%E4%B8%80%EF%BC%89.html"/>
+    <id>http://wengsj.com/从零教你用TensorFlow训练自己的图像分类器（一）.html</id>
+    <published>2017-05-14T11:16:00.000Z</published>
+    <updated>2017-06-19T09:33:47.025Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<blockquote>
+<ul>
+<li>在Ubuntu安装Docker</li>
+<li>在Docker安装TensorFlow</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="一、在Ubuntu安装Docker"><a href="#一、在Ubuntu安装Docker" class="headerlink" title="一、在Ubuntu安装Docker"></a>一、在Ubuntu安装Docker</h2><p>（可选）卸载旧版本docker：<br><code>sudo apt-get remove docker docker-engine</code></p>
+<h3 id="1-下载Docker的-deb包"><a href="#1-下载Docker的-deb包" class="headerlink" title="1. 下载Docker的.deb包"></a>1. 下载Docker的.deb包</h3><p>去这里 <a href="https://download.docker.com/linux/ubuntu/dists/" target="_blank" rel="external">https://download.docker.com/linux/ubuntu/dists/</a>， 选择你的Ubuntu版本，（例如16.04的是Xenial，14.04的是trusty）， 选择路径到 pool/stable/，选择 amd64 或者 armhf版本，然后下载对应的.deb文件。</p>
+<h3 id="2-安装Docker"><a href="#2-安装Docker" class="headerlink" title="2. 安装Docker"></a>2. 安装Docker</h3><p>使用以下命令安装下载好的.deb包，注意更改你的.deb包所在路径<br><a id="more"></a><br><code>sudo dpkg -i /path/to/package.deb</code></p>
+<h3 id="3-运行hello-world镜像来验证Docker是否已经正确安装"><a href="#3-运行hello-world镜像来验证Docker是否已经正确安装" class="headerlink" title="3. 运行hello-world镜像来验证Docker是否已经正确安装"></a>3. 运行hello-world镜像来验证Docker是否已经正确安装</h3><p>这个命令会下载一个测试镜像并运行在一个容器中。<br><code>sudo docker run hello-world</code></p>
+<p>之后如果看到以下信息，表示docker安装成功。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Hello from Docker!</div><div class="line">This message shows that your installation appears to be working correctly.</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="二、在Docker安装TensorFlow"><a href="#二、在Docker安装TensorFlow" class="headerlink" title="二、在Docker安装TensorFlow"></a>二、在Docker安装TensorFlow</h2><h3 id="1-下载tensorflow的镜像到Docker"><a href="#1-下载tensorflow的镜像到Docker" class="headerlink" title="1. 下载tensorflow的镜像到Docker"></a>1. 下载tensorflow的镜像到Docker</h3><p>使用以下命令<br><code>sudo docker run -it gcr.io/tensorflow/tensorflow:latest-devel</code><br>但是发现上面的命令会有以下错误<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Unable to find image &apos;gcr.io/tensorflow/tensorflow:latest-devel&apos; locally</div><div class="line">docker: Error response from daemon: Get https://gcr.io/v1/_ping: dial tcp xxx.xxx.xxx:xxx: getsockopt: connection refused.</div><div class="line">See &apos;docker run --help&apos;.</div></pre></td></tr></table></figure></p>
+<p>google了一下问题后，由于GFW，不能使用Docker的hub，所以用Tensorflow的官方镜像下载，改用以下命令（此处能FQ的也别开，开了会报错。）<br><code>sudo docker run -it -p 8888:8888 tensorflow/tensorflow</code><br>之后等待下载完成，需要挺久的，看网速吧。</p>
+<h3 id="未完待续…"><a href="#未完待续…" class="headerlink" title="未完待续…"></a>未完待续…</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;在Ubuntu安装Docker&lt;/li&gt;
+&lt;li&gt;在Docker安装TensorFlow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;一、在Ubuntu安装Docker&quot;&gt;&lt;a href=&quot;#一、在Ubuntu安装Docker&quot; class=&quot;headerlink&quot; title=&quot;一、在Ubuntu安装Docker&quot;&gt;&lt;/a&gt;一、在Ubuntu安装Docker&lt;/h2&gt;&lt;p&gt;（可选）卸载旧版本docker：&lt;br&gt;&lt;code&gt;sudo apt-get remove docker docker-engine&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1-下载Docker的-deb包&quot;&gt;&lt;a href=&quot;#1-下载Docker的-deb包&quot; class=&quot;headerlink&quot; title=&quot;1. 下载Docker的.deb包&quot;&gt;&lt;/a&gt;1. 下载Docker的.deb包&lt;/h3&gt;&lt;p&gt;去这里 &lt;a href=&quot;https://download.docker.com/linux/ubuntu/dists/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://download.docker.com/linux/ubuntu/dists/&lt;/a&gt;， 选择你的Ubuntu版本，（例如16.04的是Xenial，14.04的是trusty）， 选择路径到 pool/stable/，选择 amd64 或者 armhf版本，然后下载对应的.deb文件。&lt;/p&gt;
+&lt;h3 id=&quot;2-安装Docker&quot;&gt;&lt;a href=&quot;#2-安装Docker&quot; class=&quot;headerlink&quot; title=&quot;2. 安装Docker&quot;&gt;&lt;/a&gt;2. 安装Docker&lt;/h3&gt;&lt;p&gt;使用以下命令安装下载好的.deb包，注意更改你的.deb包所在路径&lt;br&gt;
+    
+    </summary>
+    
+      <category term="小技巧" scheme="http://wengsj.com/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="tensorflow" scheme="http://wengsj.com/tags/tensorflow/"/>
+    
+      <category term="ai" scheme="http://wengsj.com/tags/ai/"/>
+    
+  </entry>
+  
+</feed>
